@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Custom-1;
+    src: url(./assets/fonts/Moonstrike-nRqzP.otf);
+}
+
+@font-face {
+    font-family: Custom-2;
+    src: url(./assets/fonts/DomaineDisp-Regular.otf);
+}
+
+@font-face {
+    font-family: Custom-3;
+    src: url(./assets/fonts/DomaineDisp-Regular.otf);
+}
+
+@font-face {
+    font-family: Custom-4;
+    src: url(./assets/fonts/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Custom-5;
+    src: url(./assets/fonts/OpenSans-Semibold.ttf);
+}
+
+body{
+    height: 100vh;
+}
+
+.ql-editor{
+    font-size: 1.05rem;
+}
+
+.post-content p{
+    margin-bottom: 0.5rem;
+}
+
+.post-content h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 1.5rem 0;
+}
+
+.post-content h2{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin: 1.5rem 0;
+}
+
+.post-content a{
+    color: rgb(73,149,199);
+     text-decoration: none;
+}
+
+a.post-content a:hover{
+    text-decoration: underline;
+}
+
+.dark .post-content a{
+    color: blue;
+}
